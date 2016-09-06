@@ -1,6 +1,6 @@
 Concept
 ==========
-The idea behind this Braintree Integration is to provide a series of froms which allow you to till out parameters of each API call, with v.zero front-end tokenization interpolated as the flow is described. In version one, there is a single flow with a Hosted Fields integration that is stored in the vault, and finally used with a transaction. The idea is to allow you to input parameters intentionally correct, or otherwise to see what the results will be. 
+The idea behind this Braintree Integration is to provide a series of forms which allow you to fill out parameters of each API call, with v.zero front-end tokenization interpolated as the flow is described. In version 1.0.0, there is a single flow with a Hosted Fields integration that is stored in the vault, and finally used with a transaction. The idea is to allow you to input parameters intentionally correct, or otherwise to see what the results will be. 
 
 This integration is built and tested on [MAMP][1] version 3.5 with PHP 5.6.
 
