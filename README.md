@@ -4,6 +4,9 @@ The idea behind this Braintree Integration is to provide a series of forms which
 
 This integration is built and tested on [MAMP][1] version 3.5 with PHP 5.6.
 
+### How To Use
+
+The idea should be that you start your flow on the index.php file and create a client token. From there, this cient token would be used in one of many different flows using Braintree's API. Each form will have an input box and a checkbox to enable/disable that input. The inputs themselves represent the key/value pairs for each parameter in the API, so for example you can test out sending a parameter with nothing in it by checking the input and not filling it out to see how that would impact the result of the API call. 
 
 ### Where To Find What
 
