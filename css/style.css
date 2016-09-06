@@ -1,0 +1,115 @@
+html {
+	font-family: Arial Black;
+	color:black;
+}
+
+a {
+	margin: 10px;
+}
+
+h1 {
+	margin: 10px;
+}
+
+body {
+	height: auto;
+}
+
+#body {
+	height: auto;
+}
+
+#banner {
+	height: 30px;
+	margin: 10px;
+	width: auto;
+	display: block;
+}
+
+.bannertext {
+	margin-left: 10px;
+	vertical-align;
+}
+
+#contentbox {
+	border: solid 2px;
+  	border-color: black;
+  	margin: 7px;
+  	border-height: 7px;
+  	width: 85%;
+  	display: block;
+
+}
+
+.maindiv {
+	display: block;
+}
+
+.checkbox {
+	display: inline-block;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.text {
+	display: inline;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.button {
+	display: inline-block;
+	border: none;
+    -webkit-appearance: none;
+	background-color: #009CDE;
+	color: white;
+	font-size: 1.1em;
+	padding: 0.5em 1.5em;
+	margin: 10px;
+}
+
+.input {
+	font-family: Arial Black;
+	margin-bottom: 10px;
+	width: auto;
+	padding-right: 50%;
+	display: block;
+}
+
+* {
+	box-sizing: border-box;
+	margin-left: 10px;
+	padding: 0;
+	font-family: sans-serif;
+}
+label {
+	display: block;
+	font-size: 0.9em;
+	margin-bottom: 0.25em;
+	margin-top: 7px;
+}
+    .hf, input[type="text"] {
+	padding: 0 0.5em;
+	width: 50%;
+	height: 40px;
+	border: 1px solid #ddd;
+ 	margin-bottom: 10px;
+ 	margin-top: 1px;
+	transition: border-color 300ms;
+	display: block;
+}
+    .hf.braintree-hosted-fields-focused,
+    input[type="text"]:focus {
+      border-color: #333;
+      outline: none;
+}
+    .hf.braintree-hosted-fields-invalid,
+    input[type="text"].invalid {
+      border-color: #DE0063;
+}
+    .hf.braintree-hosted-fields-valid,
+    input[type="text"].valid {
+      border-color: #00CF92;
+}
+
+
